@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Name="AsphyxiationHediff">
+    <label>Asphyxiation</label>
+    <description>Continuous strangulation causing gradual suffocation.</description>
+    <hediffClass>RimWorld.Hediff</hediffClass>
+    <stages>
+      <HediffStage>
+        <label>Mild Asphyxiation</label>
+        <severity>0.1</severity>
+        <pain>0.1</pain>
+      </HediffStage>
+      <HediffStage>
+        <label>Moderate Asphyxiation</label>
+        <severity>0.5</severity>
+        <pain>0.3</pain>
+      </HediffStage>
+      <HediffStage>
+        <label>Severe Asphyxiation</label>
+        <severity>1.0</severity>
+        <pain>0.6</pain>
+      </HediffStage>
+    </stages>
+  </HediffDef>
+
+  <HediffDef Name="ThrowHediff">
+    <label>Thrown</label>
+    <description>Effects of being thrown, including possible injury and disorientation.</description>
+    <hediffClass>RimWorld.Hediff</hediffClass>
+    <stages>
+      <HediffStage>
+        <label>Mild Injury</label>
+        <severity>0.2</severity>
+        <pain>0.2</pain>
+      </HediffStage>
+      <HediffStage>
+        <label>Moderate Injury</label>
+        <severity>0.5</severity>
+        <pain>0.5</pain>
+      </HediffStage>
+      <HediffStage>
+        <label>Severe Injury</label>
+        <severity>1.0</severity>
+        <pain>0.8</pain>
+      </HediffStage>
+    </stages>
+  </HediffDef>
+</Defs>

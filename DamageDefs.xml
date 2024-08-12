@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <DamageDef Name="UnarmedStrangle">
+    <defaultAmount>0</defaultAmount>
+    <armorCategory>Blunt</armorCategory>
+    <chancesToMiss>0.2</chancesToMiss>
+    <defaultDamage>0</defaultDamage>
+  </DamageDef>
+
+  <DamageDef Name="UnarmedPunch">
+    <defaultAmount>0</defaultAmount>
+    <armorCategory>Blunt</armorCategory>
+    <chancesToMiss>0.1</chancesToMiss>
+    <defaultDamage>5</defaultDamage>
+  </DamageDef>
+
+  <DamageDef Name="UnarmedKick">
+    <defaultAmount>0</defaultAmount>
+    <armorCategory>Blunt</armorCategory>
+    <chancesToMiss>0.2</chancesToMiss>
+    <defaultDamage>10</defaultDamage>
+  </DamageDef>
+
+  <DamageDef Name="UnarmedHeadbutt">
+    <defaultAmount>0</defaultAmount>
+    <armorCategory>Blunt</armorCategory>
+    <chancesToMiss>0.3</chancesToMiss>
+    <defaultDamage>15</defaultDamage>
+  </DamageDef>
+
+  <DamageDef Name="UnarmedThrow">
+    <defaultAmount>0</defaultAmount>
+    <armorCategory>Blunt</armorCategory>
+    <chancesToMiss>0.15</chancesToMiss>
+    <defaultDamage>20</defaultDamage>
+  </DamageDef>
+</Defs>
